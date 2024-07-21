@@ -57,6 +57,44 @@
       border-radius: 0;
       filter: brightness(0.7); /* reduce brightness of the GIF */
     }
+    
+    .button-container {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .button {
+      background-color: #ffff00; /* yellow background */
+      color: #000; /* black text */
+      border: none;
+      padding: 10px 20px;
+      font-size: 24px;
+      font-family: 'Comic Sans MS';
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.2s; /* add transition effect */
+      border-radius: 5px; /* make the buttons slightly rounded */
+      margin: 0 10px; /* add space between the buttons */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add a shadow */
+    }
+    
+    .button:hover {
+      transform: scale(1.1) rotate(5deg); /* increase size and rotate on hover */
+      background-color: #ffd700; /* change background color to golden on hover */
+    }
+    
+    .roblox-button {
+      background-color: #000; /* black background */
+      color: #fff; /* white text */
+    }
+    
+    .youtube-button {
+      background-color: #ff0000; /* red background */
+      color: #fff; /* white text */
+    }
+    
+    .youtube-button:hover {
+      background-color: #ff4500; /* change background color to darker red on hover */
+    }
   </style>
 </head>
 <body>
@@ -78,6 +116,11 @@
   </div>
   <div class="gif-container">
     <img src="https://tenor.com/view/watermelon-cat-gif-17965022338856134529.gif" alt="Watermelon Cat GIF">
+  </div>
+  
+  <div class="button-container">
+    <button class="button roblox-button"><a href="https://www.roblox.com/users/282079352/profile" target="_blank">My Roblox</a></button>
+    <button class="button youtube-button"><a href="https://www.youtube.com/@caioiogame4640" target="_blank">My YouTube</a></button>
   </div>
 </body>
 </html>
