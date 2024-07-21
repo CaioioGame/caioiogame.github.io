@@ -12,17 +12,17 @@
     
     .text-container {
       text-align: center;
-      font-family: 'Comic Sans MS', cursive;
+      font-family: 'Comic Sans MS';
       font-size: 36px;
       color: #fff; /* white text */
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* black outline */
       padding: 20px;
       transition: font-size 0.2s, color 0.2s; /* add transition effect */
     }
     
     .text-container:hover {
       font-size: 40px; /* increase font size on hover */
-      color: #fff; /* keep text color white on hover */
+      color: #ffff00; /* change text color to yellow on hover */
     }
     
     .gif-container {
